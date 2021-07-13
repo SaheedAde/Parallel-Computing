@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/src/juliap.c
+stdio.h
+-
+omp.h
+-
+juliap.h
+/home/src/juliap.h
+
+/home/src/juliap.h
+complex.h
+-
+
+/home/src/juliap_runner.c
+ctype.h
+-
+libgen.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+omp.h
+-
+juliap.h
+/home/src/juliap.h
+

@@ -1,0 +1,36 @@
+"static",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=2.428371
+
+"static",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=2.428614
+
+"static",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=2.429804
+
+
+"static,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.030411
+
+"static,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.032198
+
+"static,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.032867
+
+"dynamic,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.054307
+
+"dynamic,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.055156
+
+"dynamic,1",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.054658
+
+"guided,10",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.402266
+
+"guided,10",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.400827
+
+"guided,10",
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.399861

@@ -1,0 +1,30 @@
+#! /bin/bash
+
+#SBATCH -p q_student
+#SBATCH -N 1                 
+#SBATCH -c 32   # use all 32 cores 
+#SBATCH --cpu-freq=High
+#SBATCH --time=5:00
+#SBATCH --output=juliap2_job_%j.out
+
+# modify parameters accordingly
+
+N=1000
+P=16
+NREP=3
+SCHEDULELIST=("static" "static,1" "dynamic,1" "guided,10")
+BINARY="../bin/juliap_runner"
+
+len=${#SCHEDULELIST[@]}
+
+for (( i=0; i<$len; i++ )); 
+do 
+  for nrep in `seq 1 ${NREP}`
+  do
+    export OMP_SCHEDULE=${SCHEDULELIST[$i]}
+    echo -n "\"${SCHEDULELIST[$i]}\","; 
+    ${BINARY} -n $N -p $P
+    unset OMP_SCHEDULE
+  done    
+done
+

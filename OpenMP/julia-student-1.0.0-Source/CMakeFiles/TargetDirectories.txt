@@ -1,0 +1,6 @@
+/home/CMakeFiles/edit_cache.dir
+/home/CMakeFiles/package_source.dir
+/home/CMakeFiles/rebuild_cache.dir
+/home/CMakeFiles/package.dir
+/home/CMakeFiles/filter_runner.dir
+/home/CMakeFiles/juliap_runner.dir

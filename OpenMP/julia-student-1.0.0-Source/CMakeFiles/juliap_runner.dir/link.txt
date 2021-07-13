@@ -1,0 +1,1 @@
+/usr/bin/cc  -fopenmp -O3 -Wall    -rdynamic CMakeFiles/juliap_runner.dir/src/juliap.c.o CMakeFiles/juliap_runner.dir/src/juliap_runner.c.o  -o bin/juliap_runner  -lm 

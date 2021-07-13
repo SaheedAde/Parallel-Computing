@@ -1,0 +1,26 @@
+#! /bin/bash
+
+#SBATCH -p q_student
+#SBATCH -N 1                 
+#SBATCH -c 32   # use all 32 cores 
+#SBATCH --cpu-freq=High
+#SBATCH --time=5:00
+#SBATCH --output=juliap_job_%j.out
+
+# modify parameters accordingly
+
+NLIST=(100 1000)
+PLIST=(1 2 4 8 16 24 32)
+NREP=3
+BINARY="../bin/juliap_runner"
+
+for n in "${NLIST[@]}"
+do
+  for p in "${PLIST[@]}"
+  do
+    for nrep in `seq 1 ${NREP}`
+    do
+      ${BINARY} -n $n -p $p
+    done    
+  done
+done

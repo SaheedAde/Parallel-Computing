@@ -1,0 +1,23 @@
+#! /bin/bash
+
+#SBATCH -p q_student
+#SBATCH -N 1                 
+#SBATCH -c 32   # use all 32 cores 
+#SBATCH --cpu-freq=High
+#SBATCH --time=5:00
+#SBATCH --output=filter_weak_job_%j.out
+
+# modify parameters accordingly
+
+PLIST=(1 2 4 8 16 24 32)
+NREP=3
+BINARY="../bin/filter_runner"
+INPUT="../contrib/input1.png"
+
+for p in "${PLIST[@]}"
+do
+  for nrep in `seq 1 ${NREP}`
+  do
+    ${BINARY} -i ${INPUT} -p $p -r $p
+  done    
+done

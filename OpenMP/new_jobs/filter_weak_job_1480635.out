@@ -1,0 +1,63 @@
+
+
+width=1168; number of threads(p)=1; number of filter application(r)=1; time=0.0378409
+
+
+width=1168; number of threads(p)=1; number of filter application(r)=1; time=0.0375121
+
+
+width=1168; number of threads(p)=1; number of filter application(r)=1; time=0.0375146
+
+
+width=1168; number of threads(p)=2; number of filter application(r)=2; time=0.155834
+
+
+width=1168; number of threads(p)=2; number of filter application(r)=2; time=0.156637
+
+
+width=1168; number of threads(p)=2; number of filter application(r)=2; time=0.131669
+
+
+width=1168; number of threads(p)=4; number of filter application(r)=4; time=0.0775685
+
+
+width=1168; number of threads(p)=4; number of filter application(r)=4; time=0.0834576
+
+
+width=1168; number of threads(p)=4; number of filter application(r)=4; time=0.0792445
+
+
+width=1168; number of threads(p)=8; number of filter application(r)=8; time=0.0525173
+
+
+width=1168; number of threads(p)=8; number of filter application(r)=8; time=0.0427748
+
+
+width=1168; number of threads(p)=8; number of filter application(r)=8; time=0.0579262
+
+
+width=1168; number of threads(p)=16; number of filter application(r)=16; time=0.0384993
+
+
+width=1168; number of threads(p)=16; number of filter application(r)=16; time=0.0427496
+
+
+width=1168; number of threads(p)=16; number of filter application(r)=16; time=0.0242519
+
+
+width=1168; number of threads(p)=24; number of filter application(r)=24; time=0.062618
+
+
+width=1168; number of threads(p)=24; number of filter application(r)=24; time=0.0755806
+
+
+width=1168; number of threads(p)=24; number of filter application(r)=24; time=0.0629905
+
+
+width=1168; number of threads(p)=32; number of filter application(r)=32; time=0.123189
+
+
+width=1168; number of threads(p)=32; number of filter application(r)=32; time=0.0963345
+
+
+width=1168; number of threads(p)=32; number of filter application(r)=32; time=0.0947295

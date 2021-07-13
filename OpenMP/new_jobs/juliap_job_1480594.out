@@ -1,0 +1,126 @@
+
+
+elements per dimensions (n)=100; Thread number (p)=1; runtime=0.160979
+
+
+elements per dimensions (n)=100; Thread number (p)=1; runtime=0.160948
+
+
+elements per dimensions (n)=100; Thread number (p)=1; runtime=0.162270
+
+
+elements per dimensions (n)=100; Thread number (p)=2; runtime=0.080868
+
+
+elements per dimensions (n)=100; Thread number (p)=2; runtime=0.082355
+
+
+elements per dimensions (n)=100; Thread number (p)=2; runtime=0.080906
+
+
+elements per dimensions (n)=100; Thread number (p)=4; runtime=0.040697
+
+
+elements per dimensions (n)=100; Thread number (p)=4; runtime=0.042231
+
+
+elements per dimensions (n)=100; Thread number (p)=4; runtime=0.040691
+
+
+elements per dimensions (n)=100; Thread number (p)=8; runtime=0.020840
+
+
+elements per dimensions (n)=100; Thread number (p)=8; runtime=0.020843
+
+
+elements per dimensions (n)=100; Thread number (p)=8; runtime=0.021119
+
+
+elements per dimensions (n)=100; Thread number (p)=16; runtime=0.011100
+
+
+elements per dimensions (n)=100; Thread number (p)=16; runtime=0.010885
+
+
+elements per dimensions (n)=100; Thread number (p)=16; runtime=0.011102
+
+
+elements per dimensions (n)=100; Thread number (p)=24; runtime=0.008184
+
+
+elements per dimensions (n)=100; Thread number (p)=24; runtime=0.008084
+
+
+elements per dimensions (n)=100; Thread number (p)=24; runtime=0.007785
+
+
+elements per dimensions (n)=100; Thread number (p)=32; runtime=0.019123
+
+
+elements per dimensions (n)=100; Thread number (p)=32; runtime=0.027836
+
+
+elements per dimensions (n)=100; Thread number (p)=32; runtime=0.012127
+
+
+elements per dimensions (n)=1000; Thread number (p)=1; runtime=16.193424
+
+
+elements per dimensions (n)=1000; Thread number (p)=1; runtime=16.131054
+
+
+elements per dimensions (n)=1000; Thread number (p)=1; runtime=16.136883
+
+
+elements per dimensions (n)=1000; Thread number (p)=2; runtime=8.186223
+
+
+elements per dimensions (n)=1000; Thread number (p)=2; runtime=8.187691
+
+
+elements per dimensions (n)=1000; Thread number (p)=2; runtime=8.188623
+
+
+elements per dimensions (n)=1000; Thread number (p)=4; runtime=4.118815
+
+
+elements per dimensions (n)=1000; Thread number (p)=4; runtime=4.115729
+
+
+elements per dimensions (n)=1000; Thread number (p)=4; runtime=4.111476
+
+
+elements per dimensions (n)=1000; Thread number (p)=8; runtime=2.081892
+
+
+elements per dimensions (n)=1000; Thread number (p)=8; runtime=2.073852
+
+
+elements per dimensions (n)=1000; Thread number (p)=8; runtime=2.074079
+
+
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.054052
+
+
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.062115
+
+
+elements per dimensions (n)=1000; Thread number (p)=16; runtime=1.056168
+
+
+elements per dimensions (n)=1000; Thread number (p)=24; runtime=0.711666
+
+
+elements per dimensions (n)=1000; Thread number (p)=24; runtime=0.710967
+
+
+elements per dimensions (n)=1000; Thread number (p)=24; runtime=0.718832
+
+
+elements per dimensions (n)=1000; Thread number (p)=32; runtime=0.560085
+
+
+elements per dimensions (n)=1000; Thread number (p)=32; runtime=0.553332
+
+
+elements per dimensions (n)=1000; Thread number (p)=32; runtime=0.556358

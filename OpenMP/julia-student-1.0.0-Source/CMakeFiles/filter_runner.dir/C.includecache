@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/src/filter.c
+math.h
+-
+omp.h
+-
+filter.h
+/home/src/filter.h
+
+/home/src/filter.h
+png_utils.h
+/home/src/png_utils.h
+
+/home/src/png_utils.h
+png.h
+-
+
